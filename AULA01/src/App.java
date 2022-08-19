@@ -21,7 +21,6 @@ public class App {
             nome = scanner.nextLine(); //Atribui o valor digitado para a variável nome
         }
 
-
         System.out.println("Digite a sua idade: ");
         if(scanner.hasNext()){ //Verifica se existe uma entrada de dados
             idade = scanner.nextInt(); //Atribui o valor digitado para a variável idade
