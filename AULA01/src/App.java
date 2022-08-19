@@ -15,7 +15,7 @@ public class App {
         int idade = 0; //Variável do tipo int com o valor 0
         double altura = 0; //Variável do tipo double com o valor 0
 
-        parfum.start();
+        parfum.start();//chama o método start do objeto parfum
         System.out.println("Digite o seu nome: ");
         if(scanner.hasNext()){ //Verifica se existe uma entrada de dados
             nome = scanner.nextLine(); //Atribui o valor digitado para a variável nome
@@ -32,7 +32,7 @@ public class App {
             altura = scanner.nextDouble(); //Atribui o valor digitado para a variável altura
         }
         
-        parfum.end();
+        parfum.end();//chama o método end do objeto parfum
         System.out.println("Nome: "+ nome);
         System.out.println("Idade: "+ idade);
         System.out.println("Altura: "+ altura);
